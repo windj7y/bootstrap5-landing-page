@@ -1,0 +1,6 @@
+.btn-special {
+  &.active {
+    color: $white !important;
+    box-shadow: $box-shadow-sm;
+  }
+}

@@ -1,0 +1,10 @@
+$footer-bottom: 296px;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrap {
+  min-height: calc(100% - #{$footer-bottom});
+}
